@@ -1,6 +1,6 @@
 <?php
 
-namespace alkurn\yii2-pager-scroll\assets;
+namespace alkurn\pager\assets;
 
 use yii\web\AssetBundle;
 
