@@ -1,0 +1,29 @@
+{
+    "name": "alkurn/yii2-pager",
+    "description": "Infinite AJAX scrolling for Yii2 ListView widget",
+    "homepage": "http://alkurn.github.io/yii2-pager/",
+    "keywords": ["yii", "yii2", "scroll", "scrolling", "pager", "pagination"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/alkurn/yii2-pager/issues",
+        "source": "https://github.com/alkurn/yii2-pager"
+    },
+    "authors": [
+        {
+            "name": "Ivan alkurntiev",
+            "email": "ivan.alkurntiev@codex.systems",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "webcreate/jquery-ias": "^2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "alkurn\\pager\\": ""
+        }
+    }
+}
