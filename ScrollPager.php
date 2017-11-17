@@ -31,10 +31,10 @@ use yii\widgets\LinkPager;
  *
  * This widget is using {@link http://infiniteajaxscroll.com/ JQuery Infinite Ajax Scroll plugin}.
  *
- * @link      http://kop.github.io/yii2-scroll-pager Y2SP project page.
- * @license   https://github.com/kop/yii2-scroll-pager/blob/master/LICENSE.md MIT
+ * @link      http://alkurn.github.io/yii2-pager Y2SP project page.
+ * @license   https://github.com/alkurn/yii2-pager/blob/master/LICENSE.md MIT
  *
- * @author    Ivan Koptiev <ivan.koptiev@codex.systems>
+ * @author    Ganesh Alkurn <ganesh.alkurn@gmail.com>
  */
 class ScrollPager extends Widget
 {
@@ -243,7 +243,7 @@ class ScrollPager extends Widget
         Yii::$app->i18n->translations = ArrayHelper::merge(Yii::$app->i18n->translations, [
             'alkurn\pager' => [
                 'class' => PhpMessageSource::className(),
-                'basePath' => '@vendor/kop/yii2-scroll-pager/messages',
+                'basePath' => '@vendor/alkurn/yii2-pager/messages',
                 'fileMap' => [
                     'alkurn\pager' => 'general.php'
                 ]

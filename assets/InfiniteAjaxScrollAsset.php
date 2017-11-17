@@ -9,10 +9,10 @@ use yii\web\AssetBundle;
  *
  * This class is an asset bundle for {@link http://infiniteajaxscroll.com/ JQuery Infinite Ajax Scroll plugin}.
  *
- * @link      http://kop.github.io/yii2-scroll-pager Y2SP project page.
- * @license   https://github.com/kop/yii2-scroll-pager/blob/master/LICENSE.md MIT
+ * @link      http://alkurn.github.io/yii2-pager Y2SP project page.
+ * @license   https://github.com/alkurn/yii2-pager/blob/master/LICENSE.md MIT
  *
- * @author    Ivan Koptiev <ivan.koptiev@codex.systems>
+ * @author    Ganesh Alkurn <ganesh.alkurn@gmail.com>
  */
 class InfiniteAjaxScrollAsset extends AssetBundle
 {
