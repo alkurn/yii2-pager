@@ -260,7 +260,7 @@ class ScrollPager extends Widget
 
         // Set default "none left" message text if not set
         if ($this->noneLeftText === null) {
-            $this->noneLeftText = Yii::t('alkurn\pager', 'You reached the end');
+            $this->noneLeftText = Yii::t('alkurn\pager', 'No more companies!');
         }
     }
 
